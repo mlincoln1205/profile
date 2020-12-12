@@ -69,8 +69,8 @@ li {
   margin: 20px;
   text-align: center;
   border-radius: 10px;
-  border: 3px solid grey;
-  box-shadow: 5px 7px 5px #16a596;
+  border: 1px solid grey;
+  box-shadow: 0px 1px 1px #16a596;
 }
 
 .list-inline > li{
@@ -82,6 +82,18 @@ li {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   list-style-type: disc;
+
+}
+.icons {
+  padding-inline-start: 0;
+  margin-left: -32px;
+}
+
+.foot {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 i {
